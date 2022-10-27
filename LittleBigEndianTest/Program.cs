@@ -9,7 +9,7 @@ var checksumConverted = GetChecksumConvertedToBE(fileBytes);
 
 Console.WriteLine($"Is current architecture LE = {BitConverter.IsLittleEndian}");
 Console.WriteLine($"Checksum as is: [{checksumAsIs}]");
-Console.WriteLine($"Checksum converted to BE: [{checksumConverted}]");
+Console.WriteLine($"Checksum converted to LE: [{checksumConverted}]");
 
 
 
